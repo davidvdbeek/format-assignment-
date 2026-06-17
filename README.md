@@ -30,7 +30,7 @@ renv::restore()
 
 ### Executing the program
 
-Open `The_Rental_Penalty.Rmd` in RStudio and click **Knit**. The data will download automatically and the PDF report will be generated.
+Open `rental-penalty-final.Rmd` in RStudio and click **Knit**. The data will download automatically and the PDF report will be generated.
 
 ## Help
 
@@ -38,11 +38,15 @@ If the Eurostat data fails to download, check your internet connection. If packa
 
 ## Authors
 
-* So-anne Sloop
-* other names
+* Joey de Wit
+* Daan van der Ree
+* So-Anne Sloop
+* Hashim Aburumman
+* Edo Ho
+* David van der Beek
 
 ## Acknowledgments
 
-* Data: [Eurostat](https://ec.europa.eu/eurostat)
-* Map boundaries: [GISCO](https://ec.europa.eu/eurostat/web/gisco)
+* Data: [Eurostat](https://ec.europa.eu/eurostat), datasets `ilc_lvho07c` and `ilc_peps01n`
+* Map boundaries: [Eurostat GISCO - Countries administrative units](https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries)
 * R packages: `tidyverse`, `eurostat`, `countrycode`, `giscoR`, `sf`, `knitr`, `rmarkdown`
