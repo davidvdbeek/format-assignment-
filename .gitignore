@@ -1,4 +1,18 @@
-.Rproj.user
+# RStudio / R session files
+.Rproj.user/
 .Rhistory
 .RData
-.Ruserdata 
+.Ruserdata
+
+# macOS
+.DS_Store
+
+# renv: packages are restored from renv.lock, so the local library and
+# caches are NOT committed. renv/activate.R and renv/settings.json ARE.
+renv/library/
+renv/staging/
+renv/sandbox/
+renv/cellar/
+renv/local/
+renv/lock/
+renv/python/
